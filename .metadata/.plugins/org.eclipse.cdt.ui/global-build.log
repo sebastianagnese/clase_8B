@@ -1,0 +1,12 @@
+21:18:14 **** Build of configuration Debug for project clase_8B ****
+make all 
+Building file: ../src/clase_8B.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/clase_8B.d" -MT"src/clase_8B.o" -o "src/clase_8B.o" "../src/clase_8B.c"
+Finished building: ../src/clase_8B.c
+ 
+Building target: clase_8B
+Invoking: GCC C Linker
+gcc  -o "clase_8B"  ./src/clase_8B.o   
+Finished building target: clase_8B
+ 
