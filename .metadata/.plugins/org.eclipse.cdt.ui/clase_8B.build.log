@@ -1,15 +1,33 @@
-21:18:14 **** Build of configuration Debug for project clase_8B ****
+21:56:38 **** Incremental Build of configuration Debug for project clase_8B ****
 make all 
+Building file: ../src/UTN_AGN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN_AGN.d" -MT"src/UTN_AGN.o" -o "src/UTN_AGN.o" "../src/UTN_AGN.c"
+Finished building: ../src/UTN_AGN.c
+ 
 Building file: ../src/clase_8B.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/clase_8B.d" -MT"src/clase_8B.o" -o "src/clase_8B.o" "../src/clase_8B.c"
+../src/clase_8B.c: In function ‘main’:
+../src/clase_8B.c:22:7: warning: unused variable ‘edad’ [-Wunused-variable]
+   int edad;
+       ^~~~
+../src/clase_8B.c:21:7: warning: unused variable ‘dni’ [-Wunused-variable]
+   int dni[8];
+       ^~~
+../src/clase_8B.c:20:8: warning: unused variable ‘nombre’ [-Wunused-variable]
+   char nombre[50];
+        ^~~~~~
+../src/clase_8B.c:18:27: warning: typedef ‘Persona’ locally defined but not used [-Wunused-local-typedefs]
+  typedef struct s_persona Persona;
+                           ^~~~~~~
 Finished building: ../src/clase_8B.c
  
 Building target: clase_8B
 Invoking: GCC C Linker
-gcc  -o "clase_8B"  ./src/clase_8B.o   
+gcc  -o "clase_8B"  ./src/UTN_AGN.o ./src/clase_8B.o   
 Finished building target: clase_8B
  
 
-21:18:14 Build Finished. 0 errors, 0 warnings. (took 445ms)
+21:56:39 Build Finished. 0 errors, 4 warnings. (took 422ms)
 

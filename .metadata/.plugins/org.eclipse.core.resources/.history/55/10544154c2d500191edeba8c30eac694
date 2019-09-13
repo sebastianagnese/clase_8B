@@ -23,6 +23,8 @@ int main(void) {
 	};
 
 
+	printf("Muestro para que no tire warning %s %d &d",nombre,dni,edad);
+
 	return 0;
 }
 

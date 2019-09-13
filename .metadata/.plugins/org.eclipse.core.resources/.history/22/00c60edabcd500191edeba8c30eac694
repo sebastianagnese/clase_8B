@@ -2,7 +2,7 @@
  ============================================================================
  Name        : clase_8B.c
  Author      : agn
- Title       : ESTRUCTURAS
+ Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
  ============================================================================
@@ -10,21 +10,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#define CANT_STRUCTS 100
-typedef struct s_persona Persona;
 
 int main(void) {
-	//struct s_persona
-	typedef struct s_persona Persona;
-	{
-		char nombre[50];
-		int dni[8];
-		int edad;
-	};
-
-
-	return 0;
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
 }
-
-
-

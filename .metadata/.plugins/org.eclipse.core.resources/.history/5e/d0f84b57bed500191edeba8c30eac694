@@ -10,21 +10,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#define CANT_STRUCTS 100
-typedef struct s_persona Persona;
+#define CANT_ELEMENTS 50
 
 int main(void) {
-	//struct s_persona
-	typedef struct s_persona Persona;
+	struct s_persona
 	{
-		char nombre[50];
-		int dni[8];
+		char nombre[CANT_ELEMENTS];
 		int edad;
+		int dni;
 	};
 
 
 	return 0;
 }
-
-
-
